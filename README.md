@@ -1,46 +1,61 @@
-# Shodshi Luxury Interiors Decorators
+# 🏛️ Shodshi Luxury Interiors Decorators
 
-## Project info
+A modern, AI-assisted, full-stack web platform developed for **Shodshi Luxury Interiors** to showcase premium interior design services, client projects, and brand offerings.  
+Live at: **[https://www.shodshiluxuryinteriors.com/](https://www.shodshiluxuryinteriors.com/)**
 
+---
+
+## 🚀 Features
+- Fully responsive luxury-themed user interface
+- AI-powered development assistance with Cursor AI
+- Cloud database management with Supabase
+- Media storage and optimization with Cloudinary
+- Dynamic content display for services and portfolios
+- SEO-friendly structure and optimized performance
+- Secure access control for administrative features
+
+---
+
+## 🛠 Tech Stack
+- **Frontend:** React, TypeScript, Vite, Tailwind CSS, shadcn/ui
+- **Backend & Database:** Supabase
+- **Media Hosting:** Cloudinary
+- **AI Tools:** Cursor AI
+- **Deployment:** Vercel
+
+---
+
+## 📂 Project Info
 This project is built with:
+- **Vite**
+- **TypeScript**
+- **React**
+- **shadcn-ui**
+- **Tailwind CSS**
+  
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🔒 Security Policy
+Administrative features are accessible only to authorized users.
 
-## How can I edit this code?
+These features are not linked in public-facing sections like headers, footers, or menus.
 
-Clone the repository, install dependencies, and run the development server:
+Unauthorized visitors are redirected to the authentication page.
 
+This ensures sensitive areas remain protected from general access and automated bots.
+
+
+
+## 📦 How to Edit This Project
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Step 2: Navigate into the project folder
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
-```
-
-## How can I deploy this project?
-
-Deploy using your preferred hosting provider for Vite/React projects.
-
-## Can I connect a custom domain?
-
-Yes, follow your hosting provider's instructions to connect a custom domain.
-
-## Security Policy: Admin Route
-
-- The admin dashboard is only accessible at `/admin_nag`.
-- Do NOT add `/admin_nag` or any admin/private routes to public navigation (header, footer, quick links, etc.).
-- Only authenticated admin users can access `/admin_nag`. All others are redirected to `/auth`.
-- The `/admin` route is reserved and will always redirect to `/auth`.
-
-This is to ensure admin access is never exposed to regular users or bots.
